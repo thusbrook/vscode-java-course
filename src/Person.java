@@ -10,4 +10,8 @@ public class Person {
     public void sayHello() {
         System.out.println("Hello, my name is " + name + " and I am " + age + " years old.");
     }
+
+    public static void main(String[] args){
+        System.out.println();
+    }
 }

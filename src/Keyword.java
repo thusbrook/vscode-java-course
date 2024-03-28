@@ -45,7 +45,7 @@ class Dog extends Animal {
     }
 }
 
-public class App {
+public class Keyword {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
         // 1. abstract 抽象类
@@ -66,15 +66,15 @@ public class App {
 
         byte minByte = -128;
         byte maxByte = 127;
-        System.err.println(minByte);
-        System.err.println(maxByte);
+        System.out.println(minByte);
+        System.out.println(maxByte);
 
         // 5. switch case ...
         // 6. catch ...
         // 7. char ...
         // 用于声明一个字符类型的变量。char 类型的变量可以存储任意的 Unicode 字符，可以使用单引号将字符括起来来表示。
         char c = 'A';
-        System.err.println(c);
+        System.out.println(c);
         // 8. class
         Person person = new Person("Tom", 18);
         person.sayHello();
@@ -86,11 +86,11 @@ public class App {
         double da = 3.14;
         double db = 2.0;
         double dc = da + db;
-        System.err.println(dc);
+        System.out.println(dc);
         // 13. if esle
         // 14. enum
         // 用于定义一组固定的常量
-        System.err.println(PlayerType.BASKETBALL);
+        System.out.println(PlayerType.BASKETBALL);
         // 15. extends
         Dog dog2 = new Dog();
         dog2.sleep();
@@ -101,8 +101,8 @@ public class App {
         // 表示单精度浮点数。
         float f1 = 3.14f; // 注意要在数字后面加上 f 表示这是一个 float 类型
         float f2 = 1.23e-4f; // 科学计数法表示小数
-        System.err.println(f1);
-        System.err.println(f2);
+        System.out.println(f1);
+        System.out.println(f2);
         // 19. for
         // 20. if
         // 21. implements
@@ -130,7 +130,7 @@ public class App {
         // 用于表示短整数，占用 2 个字节（16 位）的内存空间。
         short x = 10; // 声明一个 short 类型的变量 x，赋值为 10
         short y = 20; // 声明一个 short 类型的变量 y，赋值为 20
-        System.err.println(x + y);
+        System.out.println(x + y);
         // 37. static
         // 38. strictfp
         /**
