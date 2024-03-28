@@ -60,7 +60,21 @@ public class ListDemo {
         int index = Arrays.binarySearch(an4Array, 4);
         System.out.println("找到了 " + index);
 
-        //  数组复制
-        
+        // 数组打印
+        String[] user = new String[] { "Thus", "Thusbrook", "Thusrock", };
+        Stream<String> userStream = Arrays.stream(user);
+        System.out.println(userStream.collect(Collectors.toList()));
+
+        System.out.println("===user println===");
+        Arrays.asList(user).stream().forEach(s -> System.out.println(s));
+        System.out.println("===for each===");
+        Stream.of(user).forEach(System.out::println);
+        System.out.println("===array stream for each===");
+        Arrays.stream(user).forEach(System.out::println);
+        System.out.println("===Arrays toString===");
+        System.out.println(Arrays.toString(user));
+        // 二维数组打印
+        String[][] deepArray = new String[][] { { "Thusbrook", "Thusrock" }, { "Thus" } };
+        System.out.println(Arrays.deepToString(deepArray));
     }
 }
