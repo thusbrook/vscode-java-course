@@ -7,6 +7,11 @@
 3. 选择构建方式
 4. 选择一个项目目录 - 创建项目名称
 
+## 执行对应 demo
+``` bash
+java -cp ./bin YangHuiTriangle
+```
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
